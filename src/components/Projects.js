@@ -16,23 +16,23 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Port Scanner",
+      description: "Basic Nmap In Python",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Dog/Cat Classifier",
+      description: "CNN Model For Image Recognition",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Hostel Management System",
+      description: "MERN Stack Project",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Lead Scoring System",
+      description: "FastAPI Implemented AI Model",
       imgUrl: projImg2,
     },
     {
