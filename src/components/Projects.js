@@ -11,7 +11,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Honey Trap",
+      title: "Honey Pot",
       description: "Honeypot For SSH & HTML",
       imgUrl: projImg1,
       githubUrl: "https://github.com/username/honey-trap", // Add your GitHub URL here
