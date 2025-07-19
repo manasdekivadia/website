@@ -1,50 +1,53 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import ecom_img from "../assets/img/Project/E-com.png";
+import emotion_img from "../assets/img/Project/Emotion_detector.png"
+import medical_img from "../assets/img/Project/medical_chatbot.png"
+import dog_cat_img from "../assets/img/Project/dog_cat_classifier.png"
+import lead_img from "../assets/img/Project/lead_system.png"
+import honey_img from "../assets/img/Project/honeypot.png"
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Honey Pot",
-      description: "Honeypot For SSH & HTML",
-      imgUrl: projImg1,
-      githubUrl: "https://github.com/username/honey-trap", // Add your GitHub URL here
+      title: "Codemy",
+      description: "Full Stack MERN Project",
+      imgUrl: ecom_img,
+      githubUrl: "https://github.com/manasdekivadia/ecom-site",
     },
     {
-      title: "Port Scanner",
-      description: "Basic Nmap In Python",
-      imgUrl: projImg2,
-      githubUrl: "https://github.com/username/port-scanner", // Add your GitHub URL here
+      title: "Dr. Buddy",
+      description: "GenAI Medical Chat Bot",
+      imgUrl: medical_img,
+      githubUrl: "https://github.com/username/port-scanner", 
     },
     {
-      title: "Dog/Cat Classifier",
-      description: "CNN Model For Image Recognition",
-      imgUrl: projImg3,
-      githubUrl: "https://github.com/username/dog-cat-classifier", // Add your GitHub URL here
+      title: "Moodlyzer",
+      description: "Modeled to detect Emotion with live Webcam",
+      imgUrl: emotion_img,
+      githubUrl: "https://github.com/manasdekivadia/medical-chatbot",
     },
     {
-      title: "Hostel Management System",
-      description: "MERN Stack Project",
-      imgUrl: projImg1,
-      githubUrl: "https://github.com/username/hostel-management-system", // Add your GitHub URL here
+      title: "PetScan",
+      description: "CNN Model to classify dog vs cat",
+      imgUrl: dog_cat_img,
+      githubUrl: "https://github.com/manasdekivadia/dog-vs-cats-classifier", // Add your GitHub URL here
     },
     {
       title: "Lead Scoring System",
       description: "FastAPI Implemented AI Model",
-      imgUrl: projImg2,
-      githubUrl: "https://github.com/username/lead-scoring-system", // Add your GitHub URL here
+      imgUrl: lead_img,
+      githubUrl: "https://github.com/manasdekivadia/lead-scoring-system", // Add your GitHub URL here
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      githubUrl: "https://github.com/username/business-startup", // Add your GitHub URL here
+      title: "HoneyPot",
+      description: "SSH & HTTP Services",
+      imgUrl: honey_img,
+      githubUrl: "https://github.com/manasdekivadia/Honeypot", // Add your GitHub URL here
     },
   ];
 
